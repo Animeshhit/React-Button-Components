@@ -5,6 +5,7 @@ const Button = (props) => {
   return (
     <ButtonComps
       type={props.type}
+      onClick={props.onClick}
       className={`${
         props.variant === "outline"
           ? "btn-outline"
